@@ -1,0 +1,32 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Decorator</Name>
+    <Description>decorator pattern ; Radhouene Rouached</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Decorator</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Decorator.csproj" File="Decorator.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Asus.cs">Asus.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Mac.cs">Mac.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Option.cs">Option.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Ordinateur.cs">Ordinateur.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OrdinateurAvecCle.cs">OrdinateurAvecCle.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OrdinateurAvecImprimante.cs">OrdinateurAvecImprimante.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OrdinateurAvecTablette.cs">OrdinateurAvecTablette.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
