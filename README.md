@@ -1,7 +1,7 @@
 Decorator-pattern-Example-basic
 ===============================
 
-this is a basic example of implementing a decorator pattern with csharp c #
+This is a basic example of implementing a decorator pattern with csharp.
 
 
-[FR] ceci est un exemple basique permettant l'implementation du patron de conception -Decorateur- en csharp
+[FR] Ceci est un exemple basique permettant l'implementation du patron de conception -Decorateur- en csharp.
